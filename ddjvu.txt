@@ -1,44 +1,47 @@
-Ò»¡¢¼ò½é
+ä¸€ã€ç®€ä»‹
 
-ddjvuÊÇLinuxÏÂ´¦ÀídjvuÍ¼Æ¬µÄ³£ÓÃÃüÁî£¬¸ÃÃüÁî²»ÊÇlinux×Ô´øµÄshellÃüÁî£¬ĞèÒª¶îÍâ½øĞĞ°²×°Ö®ºó²ÅÄÜ¹»Ê¹ÓÃ£¬ddjvuÖ÷ÒªÊµÏÖdjvuÍ¼Æ¬µÄ¸ñÊ½×°»»ºÍÇĞ¸îµÈ¹¦ÄÜ¡£convertÃüÁîµÄ¹¦ÄÜ¸ü¼ÓµÄÇ¿´ó£¬ÔÚlinuxÖĞÊ¹ÓÃman convertÀ´²é¿´¸øÃüÁîÊ±£¬Ëü¸ø³öÁËÕâÑùµÄ½âÊÍ£º
+ddjvuæ˜¯Linuxä¸‹å¤„ç†djvuå›¾ç‰‡çš„å¸¸ç”¨å‘½ä»¤ï¼Œè¯¥å‘½ä»¤ä¸æ˜¯linuxè‡ªå¸¦çš„shellå‘½ä»¤ï¼Œéœ€è¦é¢å¤–è¿›è¡Œå®‰è£…ä¹‹åæ‰èƒ½å¤Ÿä½¿ç”¨ï¼Œ
+ddjvuä¸»è¦å®ç°djvuå›¾ç‰‡çš„æ ¼å¼è£…æ¢å’Œåˆ‡å‰²ç­‰åŠŸèƒ½ã€‚convertå‘½ä»¤çš„åŠŸèƒ½æ›´åŠ çš„å¼ºå¤§ï¼Œ
+åœ¨linuxä¸­ä½¿ç”¨man convertæ¥æŸ¥çœ‹ç»™å‘½ä»¤æ—¶ï¼Œå®ƒç»™å‡ºäº†è¿™æ ·çš„è§£é‡Šï¼š
 
 [plain] view plain copy print?
 convert - convert between image formats as well as resize an image,   
           blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.  
-×ãÒÔËµÃ÷Æä¹¦ÄÜµÄ¶àÑùĞÔ£¬ÊÇlinuxÏÂ´¦ÀíÍ¼Æ¬µÄ³£ÓÃ¹¤¾ß¡£
+è¶³ä»¥è¯´æ˜å…¶åŠŸèƒ½çš„å¤šæ ·æ€§ï¼Œæ˜¯linuxä¸‹å¤„ç†å›¾ç‰‡çš„å¸¸ç”¨å·¥å…·ã€‚
 
-¶ş¡¢°²×°
+äºŒã€å®‰è£…
 
-1¡¢ddjvuµÄ°²×°
+1ã€ddjvuçš„å®‰è£…
 
-     1) ÏÂÔØdjvulibre-x.x.x.x.tar.gzÔ´Âë£»
+     1) ä¸‹è½½djvulibre-x.x.x.x.tar.gzæºç ï¼›
 
-     2) Ê¹ÓÃtarÃüÁî½âÑ¹ÉÏÃæÏÂÔØµÄÔ´Âë£»
+     2) ä½¿ç”¨tarå‘½ä»¤è§£å‹ä¸Šé¢ä¸‹è½½çš„æºç ï¼›
 
-     3) ½øÈë½âÑ¹ºóµÄÄ¿Â¼£¬²¢ÔËĞĞ ./configure£¬Èç¹û³É¹¦Ôò½øĞĞÏÂÒ»²½£¬·ñÔò¸ù¾İÌáÊ¾½øĞĞ´¦Àí£»
+     3) è¿›å…¥è§£å‹åçš„ç›®å½•ï¼Œå¹¶è¿è¡Œ ./configureï¼Œå¦‚æœæˆåŠŸåˆ™è¿›è¡Œä¸‹ä¸€æ­¥ï¼Œå¦åˆ™æ ¹æ®æç¤ºè¿›è¡Œå¤„ç†ï¼›
 
-     4) ÔËĞĞmake && make install ÃüÁî(»òÕß·Ö¿ªÔËĞĞ)
+     4) è¿è¡Œmake && make install å‘½ä»¤(æˆ–è€…åˆ†å¼€è¿è¡Œ)
 
-×¢£º°²×°ÍêdjvulibreÖ®ºóÎÒÃÇ¿ÉÒÔ·¢ÏÖ£¬ÏµÍ³ÖĞÔö¼ÓÁË²»Ö¹ddjvuÒ»¸öÃüÁî£¬ÆäËûÃüÁîÒ²ÓĞºÜ´óµÄÓÃ´¦£¬ÏëdjvudumpÃüÁî¿ÉÒÔ·½±ãµÄµÃµ½djvuÍ¼Æ¬µÄĞÅÏ¢µÈ£¬ÕâĞ©ÃüÁî¿ÉÒÔÔÙĞèÒªµÄÊ±ºò½øĞĞ²é¿´¡£
+æ³¨ï¼šå®‰è£…å®Œdjvulibreä¹‹åæˆ‘ä»¬å¯ä»¥å‘ç°ï¼Œç³»ç»Ÿä¸­å¢åŠ äº†ä¸æ­¢ddjvuä¸€ä¸ªå‘½ä»¤ï¼Œå…¶ä»–å‘½ä»¤ä¹Ÿæœ‰å¾ˆå¤§çš„ç”¨å¤„ï¼Œ
+æƒ³djvudumpå‘½ä»¤å¯ä»¥æ–¹ä¾¿çš„å¾—åˆ°djvuå›¾ç‰‡çš„ä¿¡æ¯ç­‰ï¼Œè¿™äº›å‘½ä»¤å¯ä»¥å†éœ€è¦çš„æ—¶å€™è¿›è¡ŒæŸ¥çœ‹ã€‚
 
-2¡¢ convertµÄ°²×°
+2ã€ convertçš„å®‰è£…
 
-ÔÚRedhat / Centos / FedoraÖĞÎÒÃÇÖ±½ÓÊ¹ÓÃ
+åœ¨Redhat / Centos / Fedoraä¸­æˆ‘ä»¬ç›´æ¥ä½¿ç”¨
 
 yum install ImageMagick  
 
-¶øÔÚubuntu / DebianÖĞÎÒÃÇ¿ÉÒÔÊ¹ÓÃ
+è€Œåœ¨ubuntu / Debianä¸­æˆ‘ä»¬å¯ä»¥ä½¿ç”¨
 
 apt-get install ImageMagick
  
-ÔÚubuntuÉÏÈç¹û·¢ÏÖ´æÔÚÒÀÀµ°üµÄÎÊÌâ£¬¿ÉÒÔÊ¹ÓÃÏÂÃæ°²×°ÃüÁî£º
+åœ¨ubuntuä¸Šå¦‚æœå‘ç°å­˜åœ¨ä¾èµ–åŒ…çš„é—®é¢˜ï¼Œå¯ä»¥ä½¿ç”¨ä¸‹é¢å®‰è£…å‘½ä»¤ï¼š
 
 aptitude install imagemagick  
-Èı¡¢Ê¹ÓÃ
+ä¸‰ã€ä½¿ç”¨
 
-ddjvuºÍconvertÃüÁîµÄ¹¦ÄÜ·Ç³£µÄÇ¿´ó£¬ÔÚÕâÀïÖ±½Ó½«linuxÖĞµÄ°ïÖúÎÄµµÌùÔÚÏÂÃæ£¬ÒÔ±ã²éÕÒÏàÓ¦µÄ¹¦ÄÜ£º
+ddjvuå’Œconvertå‘½ä»¤çš„åŠŸèƒ½éå¸¸çš„å¼ºå¤§ï¼Œåœ¨è¿™é‡Œç›´æ¥å°†linuxä¸­çš„å¸®åŠ©æ–‡æ¡£è´´åœ¨ä¸‹é¢ï¼Œä»¥ä¾¿æŸ¥æ‰¾ç›¸åº”çš„åŠŸèƒ½ï¼š
 
-1¡¢ddjvu
+1ã€ddjvu
 
 NAME
        ddjvu - Command line DjVu decoder.
@@ -92,7 +95,7 @@ EXAMPLES
        Command: ddjvu -format=ppm -page=1 -size=100x100 myfile.djvu -
        produces a thumbnail for the first page of a document and outputs it as a PPM file on the standard output.
 
-2¡¢convert
+2ã€convert
 
 NAME
        convert - convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
