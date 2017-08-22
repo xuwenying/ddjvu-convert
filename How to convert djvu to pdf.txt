@@ -1,0 +1,41 @@
+How to convert djvu to pdf
+Step - 1 : Goto Synaptic Package Manager (System - Administration - Synaptic Package Manager)
+
+
+Step - 2 : Install
+
+djvulibre-bin
+libdjvulibre21
+okular-extra-backends
+evince
+libevdocument1
+libevview1
+
+
+
+Step - 3 : Goto terminal and write
+
+
+sudo apt-get install libtiff-tools
+
+
+Step - 4 : Goto the directory where the djvu file is present. Click the right mouse button. Goto ¡°Open In Terminal¡± option. Click on it. A terminal will open.
+
+
+Step - 5 : In that terminal write
+
+
+ddjvu -format=tiff file_name.djvu file_name.tiff
+
+
+tiff2pdf -j -o file_name.pdf file_name.tiff
+
+
+
+
+
+The djvu to pdf conversion is done.  
+
+
+
+N.B. file_name means name of your djvu file.
