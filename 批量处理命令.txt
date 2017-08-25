@@ -1,0 +1,8 @@
+1、批量图像格式转换 
+
+　　如果想将某目录下的所有jpg文件转换为png文件，只要在命令行模式下输入: 
+
+　　for %f in (*.jpg) do convert “%f” “%~nf.png” 
+
+
+for file in *.png; do convert $file ${file%%.*}.jpg; done
